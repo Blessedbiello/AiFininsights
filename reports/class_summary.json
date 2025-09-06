@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2025-09-06T02:29:29.450Z",
+  "totalStudents": 3,
+  "classOverview": {
+    "averageBudgetUtilization": "35.9",
+    "studentsOverBudget": 0,
+    "totalClassSpending": 819.95
+  },
+  "students": [
+    {
+      "studentId": "STU001",
+      "name": "Alice Johnson",
+      "budgetUtilization": 32.8,
+      "totalSpent": 327.75,
+      "status": "Conservative",
+      "topCategory": "Books"
+    },
+    {
+      "studentId": "STU002",
+      "name": "Bob Wilson",
+      "budgetUtilization": 20.9,
+      "totalSpent": 167.3,
+      "status": "Conservative",
+      "topCategory": "Food"
+    },
+    {
+      "studentId": "STU003",
+      "name": "Carol Davis",
+      "budgetUtilization": 54.1,
+      "totalSpent": 324.9,
+      "status": "Moderate",
+      "topCategory": "Books"
+    }
+  ]
+}

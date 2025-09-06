@@ -1,0 +1,16 @@
+https://platform.openai.com
+# Add your OpenAI API key to .env file
+
+// Example: More specific prompts for different student types
+createInsightsPrompt(spendingData, studentType = 'general') {
+  const basePrompt = `Analyze this student's financial data: ${spendingData}`;
+  
+  const typeSpecificGuidance = {
+    'freshman': 'Focus on building good financial habits and basic budgeting skills.',
+    'graduate': 'Emphasize advanced financial planning and investment opportunities.',
+    'international': 'Consider currency exchange and international banking factors.',
+    'general': 'Provide balanced advice suitable for typical college students.'
+  };
+
+  return `${basePrompt}\n\n${typeSpecificGuidance[studentType]}\n\nProvide structured analysis...`;
+}

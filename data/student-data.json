@@ -1,0 +1,148 @@
+{
+  "students": [
+    {
+      "studentId": "STU001",
+      "name": "Alice Johnson",
+      "semester": "Fall 2024",
+      "monthlyBudget": 1000,
+      "transactions": [
+        {
+          "date": "2024-09-01",
+          "category": "Food",
+          "amount": 45.20,
+          "description": "Grocery shopping at Walmart"
+        },
+        {
+          "date": "2024-09-01",
+          "category": "Transportation",
+          "amount": 12.50,
+          "description": "Bus fare to campus"
+        },
+        {
+          "date": "2024-09-02",
+          "category": "Books",
+          "amount": 150.00,
+          "description": "Chemistry textbook"
+        },
+        {
+          "date": "2024-09-03",
+          "category": "Food",
+          "amount": 18.75,
+          "description": "Coffee and snacks"
+        },
+        {
+          "date": "2024-09-03",
+          "category": "Entertainment",
+          "amount": 25.00,
+          "description": "Movie ticket"
+        },
+        {
+          "date": "2024-09-04",
+          "category": "Food",
+          "amount": 32.40,
+          "description": "Dinner at restaurant"
+        },
+        {
+          "date": "2024-09-05",
+          "category": "Supplies",
+          "amount": 28.90,
+          "description": "Notebooks and pens"
+        },
+        {
+          "date": "2024-09-06",
+          "category": "Transportation",
+          "amount": 15.00,
+          "description": "Uber ride"
+        }
+      ]
+    },
+    {
+      "studentId": "STU002",
+      "name": "Bob Wilson",
+      "semester": "Fall 2024",
+      "monthlyBudget": 800,
+      "transactions": [
+        {
+          "date": "2024-09-01",
+          "category": "Food",
+          "amount": 28.90,
+          "description": "Lunch at cafeteria"
+        },
+        {
+          "date": "2024-09-02",
+          "category": "Supplies",
+          "amount": 45.60,
+          "description": "Notebooks and calculators"
+        },
+        {
+          "date": "2024-09-03",
+          "category": "Transportation",
+          "amount": 20.00,
+          "description": "Gas for car"
+        },
+        {
+          "date": "2024-09-04",
+          "category": "Food",
+          "amount": 15.30,
+          "description": "Breakfast items"
+        },
+        {
+          "date": "2024-09-05",
+          "category": "Entertainment",
+          "amount": 35.00,
+          "description": "Concert ticket"
+        },
+        {
+          "date": "2024-09-06",
+          "category": "Food",
+          "amount": 22.50,
+          "description": "Pizza delivery"
+        }
+      ]
+    },
+    {
+      "studentId": "STU003",
+      "name": "Carol Davis",
+      "semester": "Fall 2024",
+      "monthlyBudget": 600,
+      "transactions": [
+        {
+          "date": "2024-09-01",
+          "category": "Books",
+          "amount": 200.00,
+          "description": "Multiple textbooks"
+        },
+        {
+          "date": "2024-09-02",
+          "category": "Food",
+          "amount": 50.00,
+          "description": "Groceries for week"
+        },
+        {
+          "date": "2024-09-03",
+          "category": "Transportation",
+          "amount": 8.00,
+          "description": "Bus pass"
+        },
+        {
+          "date": "2024-09-04",
+          "category": "Food",
+          "amount": 12.75,
+          "description": "Coffee shop"
+        },
+        {
+          "date": "2024-09-05",
+          "category": "Supplies",
+          "amount": 35.25,
+          "description": "Lab equipment"
+        },
+        {
+          "date": "2024-09-06",
+          "category": "Food",
+          "amount": 18.90,
+          "description": "Lunch out"
+        }
+      ]
+    }
+  ]
+}

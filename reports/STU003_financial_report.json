@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "studentId": "STU003",
+    "generatedAt": "2025-09-06T02:29:29.447Z",
+    "version": "1.0"
+  },
+  "studentInfo": {
+    "id": "STU003",
+    "name": "Carol Davis",
+    "semester": "Fall 2024",
+    "budget": 600
+  },
+  "financialAnalysis": {
+    "spending": {
+      "total": 324.9,
+      "average": 54.15,
+      "transactionCount": 6,
+      "dailyAverage": 54.15
+    },
+    "budget": {
+      "allocated": 600,
+      "spent": 324.9,
+      "remaining": 275.1,
+      "utilization": 54.1,
+      "status": "Moderate",
+      "isOverBudget": false
+    },
+    "categories": [
+      {
+        "name": "Books",
+        "amount": 200,
+        "percentage": 61.6,
+        "transactionCount": 1,
+        "averagePerTransaction": 200
+      },
+      {
+        "name": "Food",
+        "amount": 81.65,
+        "percentage": 25.1,
+        "transactionCount": 3,
+        "averagePerTransaction": 27.22
+      },
+      {
+        "name": "Supplies",
+        "amount": 35.25,
+        "percentage": 10.8,
+        "transactionCount": 1,
+        "averagePerTransaction": 35.25
+      },
+      {
+        "name": "Transportation",
+        "amount": 8,
+        "percentage": 2.5,
+        "transactionCount": 1,
+        "averagePerTransaction": 8
+      }
+    ],
+    "timeline": {
+      "dailySpending": [
+        {
+          "date": "2024-09-01",
+          "amount": 200
+        },
+        {
+          "date": "2024-09-02",
+          "amount": 50
+        },
+        {
+          "date": "2024-09-03",
+          "amount": 8
+        },
+        {
+          "date": "2024-09-04",
+          "amount": 12.75
+        },
+        {
+          "date": "2024-09-05",
+          "amount": 35.25
+        },
+        {
+          "date": "2024-09-06",
+          "amount": 18.9
+        }
+      ],
+      "highestSpendingDay": {
+        "date": "2024-09-01",
+        "amount": 200
+      },
+      "lowestSpendingDay": {
+        "date": "2024-09-03",
+        "amount": 8
+      }
+    }
+  },
+  "aiInsights": {
+    "success": false,
+    "error": "429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+    "insights": "\n**AUTOMATED ANALYSIS**\n\n**SPENDING OVERVIEW**: Analysis based on your recent transaction data.\n\n**KEY PATTERNS**: \n- Review your largest spending categories\n- Monitor daily spending frequency\n- Track weekend vs weekday patterns\n\n**BUDGET ASSESSMENT**: Check your budget utilization percentage and remaining balance.\n\n**RECOMMENDATIONS**:\n1. Set daily spending limits based on remaining budget\n2. Track expenses in a spreadsheet or app\n3. Review and categorize all transactions weekly\n4. Look for subscription services you can cancel\n\n**ALERTS**: Monitor any categories over 30% of total spending.\n\nNote: Full AI analysis temporarily unavailable.\n    ",
+    "timestamp": "2025-09-06T02:29:24.363Z"
+  },
+  "quickTips": "\n1. Reduce books expenses by cooking at home more often\n2. Set weekly spending limits for each category\n3. Use a budgeting app to track daily expenses\n    ",
+  "predictions": "Unable to generate predictions at this time."
+}

@@ -1,0 +1,20 @@
+{
+  "name": "aifininsights",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "Bprime",
+  "license": "ISC",
+  "description": "Ai Fin Insights",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.2",
+    "openai": "^5.19.1"
+  }
+}

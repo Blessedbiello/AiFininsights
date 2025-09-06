@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Spend Analyzer</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .container { max-width: 800px; margin: 0 auto; }
+        .student-card { border: 1px solid #ddd; margin: 20px 0; padding: 20px; }
+        .budget-status { font-weight: bold; }
+        .over-budget { color: red; }
+        .conservative { color: green; }
+        .moderate { color: orange; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Student Spending Analysis</h1>
+        <div id="results"></div>
+        
+        <script>
+            // Load and display results from JSON files
+            async function loadResults() {
+                try {
+                    const response = await fetch('./reports/class_summary.json');
+                    const data = await response.json();
+                    displayResults(data);
+                } catch (error) {
+                    document.getElementById('results').innerHTML = 
+                        '<p>Error loading results. Make sure to run the analysis first.</p>';
+                }
+            }
+            
+            function displayResults(data) {
+                const resultsDiv = document.getElementById('results');
+                let html = `<h2>Class Overview</h2>
+                           <p>Total Students: ${data.totalStudents}</p>
+                           <p>Average Budget Utilization: ${data.classOverview.averageBudgetUtilization}%</p>
+                           <p>Students Over Budget: ${data.classOverview.studentsOverBudget}</p>
+                           <h2>Individual Results</h2>`;
+                
+                data.students.forEach(student => {
+                    const statusClass = student.status.toLowerCase().replace(' ', '-');
+                    html += `
+                        <div class="student-card">
+                            <h3>${student.name}</h3>
+                            <p>Budget Utilization: <span class="budget-status ${statusClass}">${student.budgetUtilization}%</span></p>
+                            <p>Total Spent: ${student.totalSpent}</p>
+                            <p>Status: ${student.status}</p>
+                            <p>Top Category: ${student.topCategory}</p>
+                        </div>
+                    `;
+                });
+                
+                resultsDiv.innerHTML = html;
+            }
+            
+            loadResults();
+        </script>
+    </div>
+</body>
+</html>
